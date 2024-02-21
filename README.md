@@ -2,3 +2,5 @@
 基于graph-gophers开源项目搭建的graphql api服务器，可用于graphql api开发
 
 ### 效果
+![img.png](assets/public/default.png)
+![img.png](assets/public/altair.png)
