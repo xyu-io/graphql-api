@@ -1,0 +1,7 @@
+type DemoQueryObjectType{
+    getTitle: DemoResponseType
+}
+
+type DemoMutationObjectType{
+    changeTitle(title: String!): DemoResponseType
+}

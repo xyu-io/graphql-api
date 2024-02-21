@@ -1,0 +1,17 @@
+# Demo title 查询参数
+input DemoQueryType {
+    # 标题
+    id: String!
+}
+
+# Demo title 修改参数
+input DemoMutationType {
+    # 标题
+    title: String
+}
+
+# Demo title 返回值类型
+type DemoResponseType {
+    # 标题
+    title: String!
+}
