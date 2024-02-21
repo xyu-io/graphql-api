@@ -1,6 +1,7 @@
 // Code generated for package schema by go-bindata DO NOT EDIT. (@generated)
 // sources:
 // ../../../module/demo/graphql/demo_sdl/demo.graphql
+// ../sdl/base.graphql
 // ../sdl/demo.graphql
 // ../sdl/schema.graphql
 package schema
@@ -94,7 +95,27 @@ func ModuleDemoGraphqlDemo_sdlDemoGraphql() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../../../module/demo/graphql/demo_sdl/demo.graphql", size: 267, mode: os.FileMode(438), modTime: time.Unix(1707201520, 0)}
+	info := bindataFileInfo{name: "../../../module/demo/graphql/demo_sdl/demo.graphql", size: 267, mode: os.FileMode(438), modTime: time.Unix(1708480619, 0)}
+	a := &asset{bytes: bytes, info: info}
+	return a, nil
+}
+
+var _SdlBaseGraphql = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x74\x92\xc1\x4a\x2b\x31\x14\x86\xf7\x81\xbc\xc3\xb9\x74\x7b\x9f\xa0\xbb\x0b\x77\x33\x2e\x44\x6c\x77\xe2\x22\xb4\xa7\x43\xa0\x93\x89\x49\x66\xa1\xa5\xd0\x82\x48\xbb\x28\x2e\x6a\x29\x88\x82\xb3\x73\xd5\xba\xb0\x5d\x58\xaa\x2f\xe3\x4c\x9d\xb7\x90\xcc\x4c\xc7\x71\xd0\x5d\x92\xf3\xe5\x3f\xdf\x09\xe1\xc2\xa0\xea\xb0\x16\x82\xd3\x76\x8a\x75\x8f\x12\x00\x00\xde\xae\x83\x23\x0c\x25\x7d\x4a\x28\xe1\x42\x06\x06\x9c\xff\xff\x94\xab\x2b\xc4\x9f\x1c\xa9\x81\x64\x2e\x17\xcc\x20\x28\x3c\x0b\x50\x1b\x90\x4c\x31\x0f\x0d\xaa\x7d\xc0\x51\x46\x70\x5f\xec\x43\x6a\x10\x6d\xa7\xd1\x78\x12\x8f\x07\xd1\xdd\x63\x12\xae\xe2\xd9\x53\x56\x91\xcc\xc5\xc3\xc0\xcb\x7a\xfc\xad\xd0\xcb\x6b\x8b\xde\x87\xdf\xe8\x06\xbf\xc0\x02\xcf\x9d\xa2\xd1\x55\x12\xae\xde\xdf\xc2\x78\xb8\xa4\xc4\x9c\x4b\xb4\x12\xe8\x88\x8e\xdf\xb4\x9b\x2f\x8d\x14\xdc\xdd\x5e\xc6\x83\x4d\x59\xc3\xf8\x86\x75\xf3\xa7\x28\x2b\x58\x66\xb0\x29\x2b\xb4\x02\xa5\x50\x98\xbd\x73\x81\x4f\x66\x49\xb8\xfa\x58\xbc\xee\xb6\x0b\x1b\x5f\x96\x46\x65\x65\x7e\x48\xcf\x6c\xaa\xd1\x25\xf8\xf7\xf1\x8e\x51\x4b\x5f\x68\xac\x8c\x37\x9d\x44\x2f\x37\xbb\x87\x61\x1e\xe8\xb7\x2b\x6d\xd3\x7a\xbc\x1e\xa5\x41\xf6\xcc\xd3\x6e\x1d\x1a\x46\x71\xe1\x16\xed\xe2\xf9\x3a\x99\x3f\x53\xa2\x5b\xac\xcb\x14\x34\xb9\x87\x59\xe1\x40\xfb\xa2\x0e\x1e\x93\x27\x3a\xbd\x71\x5a\xfc\xad\x5e\xbf\xc0\x2d\x44\xc9\x67\x00\x00\x00\xff\xff\x0b\x0a\xef\x65\x76\x02\x00\x00")
+
+func SdlBaseGraphqlBytes() ([]byte, error) {
+	return bindataRead(
+		_SdlBaseGraphql,
+		"../sdl/base.graphql",
+	)
+}
+
+func SdlBaseGraphql() (*asset, error) {
+	bytes, err := SdlBaseGraphqlBytes()
+	if err != nil {
+		return nil, err
+	}
+
+	info := bindataFileInfo{name: "../sdl/base.graphql", size: 630, mode: os.FileMode(438), modTime: time.Unix(1708480619, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -114,7 +135,7 @@ func SdlDemoGraphql() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../sdl/demo.graphql", size: 148, mode: os.FileMode(438), modTime: time.Unix(1707201500, 0)}
+	info := bindataFileInfo{name: "../sdl/demo.graphql", size: 148, mode: os.FileMode(438), modTime: time.Unix(1708480619, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -134,7 +155,7 @@ func SdlSchemaGraphql() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "../sdl/schema.graphql", size: 217, mode: os.FileMode(438), modTime: time.Unix(1707199749, 0)}
+	info := bindataFileInfo{name: "../sdl/schema.graphql", size: 217, mode: os.FileMode(438), modTime: time.Unix(1708480619, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -192,6 +213,7 @@ func AssetNames() []string {
 // _bindata is a table, holding each asset generator, mapped to its name.
 var _bindata = map[string]func() (*asset, error){
 	"../../../module/demo/graphql/demo_sdl/demo.graphql": ModuleDemoGraphqlDemo_sdlDemoGraphql,
+	"../sdl/base.graphql":                                SdlBaseGraphql,
 	"../sdl/demo.graphql":                                SdlDemoGraphql,
 	"../sdl/schema.graphql":                              SdlSchemaGraphql,
 }
@@ -254,6 +276,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 			}},
 		}},
 		"sdl": &bintree{nil, map[string]*bintree{
+			"base.graphql":   &bintree{SdlBaseGraphql, map[string]*bintree{}},
 			"demo.graphql":   &bintree{SdlDemoGraphql, map[string]*bintree{}},
 			"schema.graphql": &bintree{SdlSchemaGraphql, map[string]*bintree{}},
 		}},
